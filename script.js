@@ -2,7 +2,7 @@
 const SUPABASE_URL = 'https://zqpggcvrofsvwcdqshjh.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpxcGdnY3Zyb2ZzdndjZHFzaGpoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ1MTAwNzgsImV4cCI6MjA3MDA4NjA3OH0.Le3pvGyOBMlo2Ti-Pk_Yc4qplDwo9ZtcdfEOKnPFf5s';
 
-const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const grid = document.getElementById('grid');
 
